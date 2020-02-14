@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@babel/code-frame": "^7.8.3",
+    "@babel/generator": "^7.8.4",
+    "@babel/parser": "^7.8.4",
+    "@babel/traverse": "^7.8.4",
+    "@babel/types": "^7.8.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "esutils": "^2.0.3",
+    "globals": "^12.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "js-tokens": "^5.0.0",
+    "jsesc": "^2.5.2",
+    "to-fast-properties": "^3.0.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --config ./build/webpack.config.js"
+  }
+}
